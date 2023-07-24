@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerCard {
+  background-color: white;
+  width: 620px;
+  height: 440px;
+  box-shadow: 0px 10px 20px 3px rgba(182, 205, 235, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Card Top */
+
+.cardTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topInfo {
+  width: 80%;
+}
+.cardTop h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 600;
+  font-size: 26px;
+}
+.cardTop h3 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 20px;
+}
+.cardTop p {
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+  margin-top: 10px;
+}
+
+/* Card Below */
+
+.cardBelow{
+    display: flex;
+    height: 100%;
+}
+
+/* Card Left */
+.cardLeft {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  flex: 1;
+}
+.cardLeft h3 {
+  margin: 40px 40px -30px 40px;
+  font-weight: 600;
+}
+.cardLeft p {
+  margin: -15px 30px 0px 40px;
+}
+.price {
+  display: flex;
+  margin: 40px 40px 20px 40px;
+}
+.price p {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: hsl(204, 43%, 93%, 0.7);
+}
+button {
+  margin-left: 58px;
+  margin-top: 30px;
+  width: 180px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  cursor: pointer;
+  box-shadow: 0px 4px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Right */
+.cardRight {
+  background-color: hsl(179, 62%, 43%, 0.8);
+  color: white;
+  flex: 1;
+
+}
+.cardRight h3 {
+  margin: 40px 40px -30px 40px;
+  font-weight: 600;
+}
+.cardRight p {
+  margin: 40px 40px -30px 40px;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(204, 43%, 93%);
+  width: 60%;
+  line-height: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .container {
+    height: auto;
+  }
+  .containerCard {
+    margin: 20px 0 20px 0px;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 7px;
+    height: auto;
+  }
+
+  /* Card Top */
+  .cardTop{
+    margin: 40px 0 20px 0px;
+    height: 100%;
+  }
+
+  .cardTop h3 {
+    margin-top: 15px;
+  }
+  .cardTop p {
+    margin-top: 10px;
+    line-height: 25px;
+  }
+
+  /* Card Below */
+  .cardBelow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Left */
+  .cardLeft {
+  height: 100%;
+  padding-bottom: 10px;
+  }
+  .left-Info{
+    height: 100%;
+  }
+  .price {
+    margin-top: 50px;
+  }
+  button {
+    width: 80%;
+    height: 50px;
+    font-size: 16px;
+    margin: 20px 20px 10px 40px;
+    
+  
+  }
+  /* Right */
+  .cardRight {
+    height: 100%;
+    border-radius: 0 0 7px 7px;
+    padding-bottom: 65px;
+  }
+  .cardRight p {
+    line-height: 20px;
+  }
+  .right-Info{
+    height: 100%;
+  }
+}
