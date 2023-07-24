@@ -11,7 +11,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Live Site URL: [My live site URL here](https://your-live-site-url.com)
+- Live Site URL: [My live site URL here](https://velvety-lily-561695.netlify.app/)
 
 
 ## Author
