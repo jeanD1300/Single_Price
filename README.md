@@ -7,7 +7,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 
 ## Overview
-![](/images/desktop.preview.jpg)
+![](/images/desktop-preview.jpg)
 
 ### Links
 
